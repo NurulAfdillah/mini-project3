@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+}
+
+.buttonInput{
+    display: flex;
+}
+
+.todo-wrapper, .activity{
+    width:  70%;
+    margin: 50px auto 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 25px;
+    
+}
+
+h2{
+    padding-bottom: 8px;
+}
+
+.todo-wrapper p{
+    color: #9c9c9cd5;
+    font-style: italic;
+    padding-bottom: 8px;
+}
+
+form{
+    width: 90%;
+}
+
+.buttonInput form input{
+    width: 97%;
+    height: 20px;
+    padding: 0 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+/*Button*/
+
+.addButton{
+    color: white;
+    width: 10%;
+    height: 23.5px;
+    background-color: rgba(0, 0, 255, 0.7);
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+.activity button{
+    border: none;
+    margin: 0px 12%;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.activity #clear-button{
+    background-color:rgba(0, 0, 255, 0.7) ;
+}
+
+.activity #save-button{
+    background-color: rgba(0, 189, 0, 0.911);
+}
+
+.activity #delate-button{
+    background-color: #ac0000d0;
+}
+
+/* Activity */
+.activity ul li{
+    margin: 0 17px;
+    padding: 5px;
+    width: 85%;
+    cursor: pointer;
+}
+
+ul li:hover{
+    background-color: rgba(128, 128, 128, 0.781);
+}
+
+.three-button{
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 10px;
+    border-top: 1px solid black;
+}
+
+button:active{
+    background-color: black;
+    color: white;
+}
+
+#save-button:active{
+    background-color: black;
+    color: white;
+}
+
+#clear-button:active{
+    background-color: black;
+    color: white;
+}
+
+#delate-button:active{
+    background-color: black;
+    color: white;
+}
